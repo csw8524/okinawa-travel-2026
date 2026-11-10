@@ -39,13 +39,13 @@
     <main class="max-w-5xl mx-auto px-4 mt-8">
 
         <!-- Navigation Tabs -->
-        <div class="flex space-x-2 border-b border-slate-200 overflow-x-auto pb-2 mb-6" id="dayTabs">
-            <button onclick="switchDay(1)" id="tab-1" class="day-tab px-5 py-2.5 rounded-lg font-medium transition-all duration-200 bg-sky-600 text-white shadow-md">D1 (11/23)</button>
-            <button onclick="switchDay(2)" id="tab-2" class="day-tab px-5 py-2.5 rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">D2 (11/24)</button>
-            <button onclick="switchDay(3)" id="tab-3" class="day-tab px-5 py-2.5 rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">D3 (11/25)</button>
-            <button onclick="switchDay(4)" id="tab-4" class="day-tab px-5 py-2.5 rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">D4 (11/26)</button>
-            <button onclick="switchDay(5)" id="tab-5" class="day-tab px-5 py-2.5 rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">D5 (11/27)</button>
-            <button onclick="switchDay(0)" id="tab-0" class="day-tab px-5 py-2.5 rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">全部總覽</button>
+        <div class="grid grid-cols-3 gap-2 border-b border-slate-200 pb-3 mb-6 sm:flex sm:flex-wrap sm:gap-2" id="dayTabs">
+            <button onclick="switchDay(1)" id="tab-1" class="day-tab min-h-[48px] w-full px-2 py-3 text-sm sm:w-auto sm:px-5 sm:py-2.5 sm:text-base rounded-lg font-medium transition-all duration-200 bg-sky-600 text-white shadow-md">D1 (11/23)</button>
+            <button onclick="switchDay(2)" id="tab-2" class="day-tab min-h-[48px] w-full px-2 py-3 text-sm sm:w-auto sm:px-5 sm:py-2.5 sm:text-base rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">D2 (11/24)</button>
+            <button onclick="switchDay(3)" id="tab-3" class="day-tab min-h-[48px] w-full px-2 py-3 text-sm sm:w-auto sm:px-5 sm:py-2.5 sm:text-base rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">D3 (11/25)</button>
+            <button onclick="switchDay(4)" id="tab-4" class="day-tab min-h-[48px] w-full px-2 py-3 text-sm sm:w-auto sm:px-5 sm:py-2.5 sm:text-base rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">D4 (11/26)</button>
+            <button onclick="switchDay(5)" id="tab-5" class="day-tab min-h-[48px] w-full px-2 py-3 text-sm sm:w-auto sm:px-5 sm:py-2.5 sm:text-base rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">D5 (11/27)</button>
+            <button onclick="switchDay(0)" id="tab-0" class="day-tab min-h-[48px] w-full px-2 py-3 text-sm sm:w-auto sm:px-5 sm:py-2.5 sm:text-base rounded-lg font-medium transition-all duration-200 bg-white text-slate-600 hover:bg-slate-100">全部總覽</button>
         </div>
 
         <!-- DAY 1 -->
